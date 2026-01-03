@@ -1,8 +1,10 @@
-NFT Generator Script
+NFT GENERATOR SCRIPT
+____________________
 
 This Python script generates unique NFTs by combining various asset layers (e.g., backgrounds, bodies, heads, eyes, accessories) into one image. The script allows for customizable rarity, inclusion of different asset layers, and automatic metadata generation in Ethereum-compatible format (ERC-721 standard).
 
-Features
+
+FEATURES
 
 Asset Layer Combination: Combines multiple layers (background, body, head, eyes, accessories) to generate unique NFTs.
 
@@ -16,7 +18,8 @@ Flexible Asset Paths: Easily update paths for different asset categories (backgr
 
 Adjustable Weights: Define the weights for asset rarity to control the distribution of different asset types.
 
-Requirements
+
+REQUIREMENTS
 
 To run this script, you'll need:
 
@@ -28,7 +31,8 @@ Install Pillow using pip:
 
 pip install pillow
 
-Usage
+
+USAGE:
 
 Clone the repository:
 
@@ -53,7 +57,7 @@ Run the Script:
 
 Edit the script to specify the number of NFTs you want to generate and the number of NFTs that should include accessories.
 
-Example:
+Ex:
 
 generate_nfts(100, accessories_per_nft=5)  # Generate 100 NFTs, with accessories included in 5 NFTs
 
