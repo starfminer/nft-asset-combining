@@ -1,11 +1,11 @@
-NFT GENERATOR SCRIPT
-____________________
+NFT GENERATOR
+______________
 
 This Python script generates unique NFTs by combining various asset layers (e.g., backgrounds, bodies, heads, eyes, accessories) into one image. The script allows for customizable rarity, inclusion of different asset layers, and automatic metadata generation in Ethereum-compatible format (ERC-721 standard).
 
 
 FEATURES
-
+______________
 Asset Layer Combination: Combines multiple layers (background, body, head, eyes, accessories) to generate unique NFTs.
 
 Customizable Rarity: Control the probability of each asset being selected by defining rarity weights for each layer.
