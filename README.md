@@ -24,12 +24,8 @@ This tool combines layered image assets using weighted rarity rules and outputs 
 
 ---
 
-## Installation
+## Usage
 
-
-pip install pillow
-
-Usage
 Configure asset paths, rarity weights, and layer order in the script, then run:
 
 
