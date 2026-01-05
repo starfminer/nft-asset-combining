@@ -4,7 +4,7 @@ A configurable Python-based asset generation pipeline for creating ERC-721 NFT c
 
 This tool combines layered image assets using weighted rarity rules and outputs both final images and Ethereum-compatible metadata.
 
----
+ 
 
 ## Features
 
@@ -47,9 +47,9 @@ Generated images and metadata will be written to the output/ directory.
 This example would generate a run of 100 randomized NFTs with 5 NFTs in the run containing accessories.
 
 
-## Configuration
+# Configuration
 
-### Asset Paths
+## Asset Paths
 
 Assets are grouped by category and defined in the asset_paths dictionary:
 
@@ -65,7 +65,7 @@ Categories can be added or removed as needed.
 
  
 
-### Rarity Weights
+## Rarity Weights
 
 Trait rarity is controlled via weighted probability lists:
 
@@ -81,7 +81,7 @@ Higher weights increase the likelihood of selection.
 
  
 
-### Layer Order
+## Layer Order
 
 Layers are composited from bottom to top:
 
@@ -97,7 +97,7 @@ Adjust this order to fit your asset design.
 
  
 
-### Output
+## Output
 
 Generated images and metadata will be written to the output/ directory.
 
@@ -109,7 +109,7 @@ A corresponding JSON metadata file compatible with ERC-721 standards
 
  
 
-### Design Notes
+## Design Notes
 
 Weighted rarity allows precise control over trait distribution
 
@@ -119,6 +119,6 @@ Designed for extensibility and reuse across multiple collections
 
  
 
-### License
+## License
 
 MIT License
