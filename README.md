@@ -64,7 +64,7 @@ Categories can be added or removed as needed.
 
 ---
 
-Rarity Weights
+### Rarity Weights
 
 Trait rarity is controlled via weighted probability lists:
 
@@ -80,7 +80,7 @@ Higher weights increase the likelihood of selection.
 
 ---
 
-Layer Order
+### Layer Order
 
 Layers are composited from bottom to top:
 
@@ -96,10 +96,26 @@ Adjust this order to fit your asset design.
 
 ---
 
-Output
+### Output
+
+Generated images and metadata will be written to the output/ directory.
 
 Each generated NFT includes:
 
 A composite PNG image
 
 A corresponding JSON metadata file compatible with ERC-721 standards
+
+
+## Design Notes
+
+Weighted rarity allows precise control over trait distribution
+
+Metadata follows ERC-721 conventions for marketplace compatibility
+
+Designed for extensibility and reuse across multiple collections
+
+
+### License
+
+MIT License
