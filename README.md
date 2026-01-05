@@ -32,29 +32,6 @@ cd nft-asset-generator
 pip install pillow
 ```
 
-
-## Usage
-
-Use this script to generate NFT assets and metadata before deployment.
-
-1. Configure your layers: set asset paths, rarity weights, and layer order in the script.
-
-2. Generate metadata:
-
-```bash
-generate_metadata_for_all_nfts(100)  # Creates metadata for 100 NFTs
-```
-Metadata is saved in output/metadata/.
-
-3. Generate images:
-
-```bash
-generate_images_from_metadata()  # Generates images from metadata
-```
-
-Images are saved directly in output/.
-
-
 # Configuration
 
 ## Asset Paths
@@ -115,15 +92,35 @@ Adjust this order to fit your asset design.
 
 ## Output
 
-Generated images and metadata will be written to the output/ directory.
-
 Each generated NFT includes:
 
 - A composite PNG image
 
 - A corresponding JSON metadata file compatible with ERC-721 standards
 
- 
+
+## Usage
+
+Use this script to generate NFT assets and metadata before deployment.
+
+1. Configure your layers: set asset paths, rarity weights, and layer order in the script.
+
+2. Generate metadata:
+
+```bash
+generate_metadata_for_all_nfts(100)  # Creates metadata for 100 NFTs
+```
+Metadata is saved in output/metadata/.
+
+3. Generate images:
+
+```bash
+generate_images_from_metadata()  # Generates images from metadata
+```
+
+Images are saved directly in output/.
+
+
 
 ## Design Notes
 
